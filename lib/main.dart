@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod_app/config/router/app_route.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -9,12 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Riverpod App'),
-        ),
-      ),
+    return MaterialApp.router(
+      routerConfig: appRouter,
     );
   }
 }
