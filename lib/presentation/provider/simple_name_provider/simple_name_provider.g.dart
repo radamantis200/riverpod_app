@@ -6,7 +6,7 @@ part of 'simple_name_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$simpleNameHash() => r'a07de4a7c5c445de7f65cf26b50a38e87789636d';
+String _$simpleNameHash() => r'0606f39653b94985762cda09d577ee59e2749bfe';
 
 /// See also [simpleName].
 @ProviderFor(simpleName)

@@ -23,6 +23,14 @@ class _HomeScreenView extends StatelessWidget {
             title: 'Provider Simple',
             subTitle: 'Un provider de sólo lectura',
             location: '/provider'),
+        _CustomListTile(
+            title: 'Provider + Go_Router',
+            subTitle: 'Un uso aplicado',
+            location: '/provider-router'),
+        _CustomListTile(
+            title: 'State Provider',
+            subTitle: 'Un estado para almacenar un objeto',
+            location: '/state-provider'),
       ],
     );
   }
