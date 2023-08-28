@@ -23,6 +23,14 @@ GoRouter appRouter(AppRouterRef ref) {
       path: '/state-provider',
       builder: (context, state) => const StateProviderScreen(),
     ),
+    GoRoute(
+      path: '/future-provider',
+      builder: (context, state) => const FutureProviderScreen(),
+    ),
+    GoRoute(
+      path: '/family-provider',
+      builder: (context, state) => const FamilyFutureScreen(),
+    ),
   ]);
 }
 

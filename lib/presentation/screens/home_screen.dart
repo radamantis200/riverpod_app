@@ -31,6 +31,14 @@ class _HomeScreenView extends StatelessWidget {
             title: 'State Provider',
             subTitle: 'Un estado para almacenar un objeto',
             location: '/state-provider'),
+        _CustomListTile(
+            title: 'Future Provider',
+            subTitle: 'Mantener el estado de future y su retorno',
+            location: '/future-provider'),
+        _CustomListTile(
+            title: 'Family Future Provider',
+            subTitle: 'Provider con argumentos',
+            location: '/family-provider'),
       ],
     );
   }
